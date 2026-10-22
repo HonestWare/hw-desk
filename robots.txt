@@ -1,0 +1,5 @@
+# These pages carry <meta name="robots" content="noindex">. Crawlers must be allowed to read a page to see that tag:
+# Google: "must not be blocked by a robots.txt file" or the page can still appear in results
+# (developers.google.com/search/docs/crawling-indexing/block-indexing, updated 2025-12-10). So nothing is blocked here.
+User-agent: *
+Disallow:
